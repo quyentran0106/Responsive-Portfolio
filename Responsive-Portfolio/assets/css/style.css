@@ -320,10 +320,22 @@ main {
 
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: black;
 
   /* Visual */
   border-bottom: 0;
+}
+
+  /* ANIMATION*/
+.work {
+  background: black;
+  animation-name: colorchange;
+  animation-duration: 10s;
+}
+
+@keyframes colorchange {
+  from {background: #4aaaa5;}
+  to {background: black;}
 }
 
 .auth-image {
